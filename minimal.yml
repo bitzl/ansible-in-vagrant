@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  # remote_user: root
+  tasks:
+  - name: Create test file
+    file: path=/vagrant/test.txt state=touch	
